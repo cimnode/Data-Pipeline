@@ -1,5 +1,9 @@
 # Data-Pipeline
 
+Data pipeline is meant to receive data from any source. Modify the data at a series of nodes. And pass the data to some external source. An open and modular framework for ETL.  
+
+Pipeline nodes directory are monitored by systemd path and service unit files. The included example shows a basic configuration. Any method can be used to place the file in the initial pipeline. Some routines will be provided. 
+
 Place a directory monitored by systemd. Runner the scripts specified on the data, and move to another directory. Can be executed as a pipeline.  See runner.sh for more details on how executables run.
 
 Create the directory structure expected by the routines.
@@ -13,9 +17,7 @@ Example directories:
 /opt/pipeline/00001/debug/  
 /opt/pipeline/00001/proc/  
 
-Pipeline nodes are added as systemd path and service unit files. The included example shows a basic configuration. 
 
-Any method can be used to place the file in the initial pipeline. Some routines will be provided. 
 
 To do:  
 - create input methods  
