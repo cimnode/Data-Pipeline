@@ -13,3 +13,4 @@ Example directories:
 /opt/pipeline/00001/debug/  
 /opt/pipeline/00001/proc/  
 
+Pipeline nodes are added as systemd path and service unit files. The included example shows a basic configuration. 
