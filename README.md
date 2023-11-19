@@ -35,7 +35,8 @@ To do:
     - email  
     - slack  
     - UF  
-    - HEC passthrough  
+    - HEC passthrough
+    - DB write  
 
 - documentation
 - friendly configuration
