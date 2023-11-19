@@ -3,6 +3,7 @@ Description=Scripts that runs when file lands in directory.
 
 [Service]
 Type=simple
+# runner.sh takes three arguments. 1. directory of the node. 2. location to place after successful run. 3. script to modify files in place. Full path to the exe. Files in the directory will be passed to this exe that should designed to modify the file in place.
 # ":" is used as a noop script for this example, and it becomes just a move.
 ExecStart=/opt/pipeline/bin/runner.sh /opt/pipeline/00001 /opt/pipeline/00002 :
 
