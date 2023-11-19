@@ -1,0 +1,9 @@
+[Unit]
+Description=Monitor and move files in directory
+
+[Path]
+PathChanged=/opt/pipeline/00001
+Unit=pipeline-00001.service
+
+[Install]
+WantedBy=multi-user.target
