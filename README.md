@@ -14,3 +14,26 @@ Example directories:
 /opt/pipeline/00001/proc/  
 
 Pipeline nodes are added as systemd path and service unit files. The included example shows a basic configuration. 
+
+Any method can be used to place the file in the initial pipeline. Some routines will be provided. 
+
+To do:  
+- create input methods  
+    - HEC (DONE)
+    - generic http  
+    - csv to http
+ 
+- modification examples  
+    - add field to csv  
+    - remove value from csv  
+    - route to node based on included value  
+    - extract a value and route to a node  
+ 
+- external route   
+    - email  
+    - slack  
+    - UF  
+    - HEC passthrough  
+
+- documentation
+- friendly configuration
