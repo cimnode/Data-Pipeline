@@ -1,0 +1,9 @@
+[Unit]
+Description=Scripts that runs when file lands in directory.
+
+[Service]
+Type=simple
+ExecStart=/opt/pipeline/bin/runner.sh /opt/pipeline/00001 /opt/pipeline/00002 :
+
+[Install]
+WantedBy=multi-user.target
